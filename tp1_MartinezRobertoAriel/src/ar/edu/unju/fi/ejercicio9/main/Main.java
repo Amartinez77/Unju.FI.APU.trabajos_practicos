@@ -12,6 +12,8 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in); 
 		
+		// creo objetos con distinto nombre dentro del ciclo for, tambien podria haberse solucionado usando un array
+		
 		for (int i = 1; i <= 3; i++) {
 			
 			System.out.println("ingrese el nombre de producto");
