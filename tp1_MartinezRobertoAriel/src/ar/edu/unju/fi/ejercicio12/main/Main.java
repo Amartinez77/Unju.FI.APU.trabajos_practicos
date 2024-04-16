@@ -20,7 +20,7 @@ public class Main {
 		
 		String nombre = scanner.nextLine(); 
 		
-		System.out.println("ingrese suy fecha de nacimiento");
+		System.out.println("ingrese su fecha de nacimiento");
 		
 		String fechaIngresada = scanner.nextLine();
 		
@@ -39,7 +39,7 @@ public class Main {
 		System.out.println("Estación en la que nació: "+persona.estacion());
 		
 		
-		
+		scanner.close();
 		
 	}
 	
