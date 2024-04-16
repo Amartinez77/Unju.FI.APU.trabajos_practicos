@@ -32,9 +32,12 @@ public class Main {
 		Persona persona = new Persona(nombre, fecNac);
 		
 		
-		System.out.println("la edad es: "+persona.edad());
+		System.out.println("Nombre: "+persona.getNombre());
+		System.out.println("Fecha de nacimiento: "+persona.getFecNac());
 		
-		System.out.println("el signo es: "+persona.signo());
+		System.out.println("Edad: "+persona.edad()+ " años");
+		
+		System.out.println("Signo del zodiaco: "+persona.signo());
 		
 		System.out.println("Estación en la que nació: "+persona.estacion());
 		
